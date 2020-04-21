@@ -8,7 +8,7 @@ from models.workBlock import WorkBlock
 class WorkBlockStorageService:
 
     def __init__(self):
-        
+        # https://ianlondon.github.io/blog/pickling-basics/
         # TODO - decide how want to store work blocks - pickle, database 
         # if we're just gonna pickle a file, we can write that logic in this class - discuss this
 
